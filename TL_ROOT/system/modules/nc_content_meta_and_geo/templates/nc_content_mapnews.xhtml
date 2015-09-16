@@ -1,0 +1,6 @@
+
+<p class="info-box news">
+	<span class="title"><a href="<?php echo $item['link']; ?>"><?php echo $item['title']; ?></a></span><br />
+	<span class="adress"><?php echo $item['location']['address']; ?></span><br />
+	<span class="date">am <?php echo date("d.m.Y", (int)$item['date']); ?> um <?php echo date("H:i", (int)$item['date']); ?></span>
+</p>

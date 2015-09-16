@@ -1,0 +1,6 @@
+
+<p class="info-box <?php echo $this->class; ?>">
+	<span class="title"><a href="<?php echo $this->link; ?>"><?php echo $this->title; ?></a></span><br />
+	<span class="adress"><?php echo $this->location['address']; ?></span><br />
+	<span class="date">am <?php echo date("d.m.Y", (int)$this->date); ?> um <?php echo date("H:i", (int)$this->date); ?></span>
+</p>
