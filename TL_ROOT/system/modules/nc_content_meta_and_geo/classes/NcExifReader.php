@@ -266,7 +266,7 @@ class NcExifReader extends \Backend
 						}
 					}
 				}
-				$lngs = deserialize($GLOBALS['TL_CONFIG']['nc_auto_meta_languages']);
+				$langs = deserialize($GLOBALS['TL_CONFIG']['nc_auto_meta_languages']);
 				if (is_array($langs) && count($langs) > 0)
 				{
 					foreach ($langs as $lang)
